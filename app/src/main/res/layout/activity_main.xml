@@ -7,6 +7,39 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/cycle_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cycle:"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/t4" />
+
+    <TextView
+        android:id="@+id/t5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World22!"
+        android:layout_margin="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.615"
+        app:layout_constraintStart_toEndOf="@+id/t4"
+        app:layout_constraintTop_toBottomOf="@+id/t3" />
+
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World21!"
+        android:layout_margin="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.191"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/t2" />
+
+    <TextView
         android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -28,17 +61,22 @@
         android:id="@+id/t2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World22!"
+        android:text="Hello World11!"
+        android:layout_margin="15dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.191"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn" />
+
     <TextView
         android:id="@+id/t3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World22!"
+        android:text="Hello World12!"
+        android:layout_margin="15dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/t2" />
+        app:layout_constraintHorizontal_bias="0.616"
+        app:layout_constraintStart_toEndOf="@+id/t2"
+        app:layout_constraintTop_toBottomOf="@+id/btn" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
