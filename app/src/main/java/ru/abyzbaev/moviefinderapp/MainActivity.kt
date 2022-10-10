@@ -24,12 +24,17 @@ class MainActivity : AppCompatActivity() {
         val textView1: TextView = findViewById(R.id.t2)
         val textView2: TextView = findViewById(R.id.t3)
 
+
+
+
         button.setOnClickListener(object : View.OnClickListener {
             override fun onClick(p0: View?) {
                 Toast.makeText(baseContext, "Toast!", LENGTH_SHORT).show()
             }
         })
 
+        textView1.setText(myTestClass1.val1)
+        textView2.setText(myTestClass1.val2)
 
     }
 }
